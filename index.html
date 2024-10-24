@@ -11,11 +11,14 @@
   <!-- Import local styles -->
   <link rel="stylesheet" href="styles/general.css">
   <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/page-styles/index.css">
 </head>
 <body>
 
 <!-- Header -->
-  <header>
+
+  <nav><header>
+    <!-- Note #1 (notes are located at the bottom of this doc) -->
     <div id="homeButton">
       Home
     </div>
@@ -35,7 +38,13 @@
     <div id="aboutButton">
       About
     </div>
-  </header>
+  </header></nav>
+
+<!-- Background Image -->
+  <div class="background-img-box">
+    <img class="background-img" src="images/menu-items/entree-1.jpg" alt="">
+  </div>
+  
 
 <!-- Main Page Content -->
   <main>
@@ -54,3 +63,10 @@
 
 </body>
 </html>
+
+<!--
+
+1: Might want to update the css code in the future to select some way other than div,
+  bc it seems like it's treating the nav element as a div, which fucks the whole header
+ 
+-->
