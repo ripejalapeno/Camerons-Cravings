@@ -1,5 +1,5 @@
 :root {
-  font-family: "Danfo";
+  font-family: "Roboto";
   color: white;
 
 /* Color Palette */
@@ -51,6 +51,8 @@
 body {
   position: relative;
 
+  padding-top: calc(var(--title-height) + var(--header-height));
+
   height: 300vh;
 }
 
@@ -58,6 +60,8 @@ h1 {
   font-family: "Roboto";
   font-size: 4rem;
 }
+
+
 
 .background-img-box {
   position: fixed;
